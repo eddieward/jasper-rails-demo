@@ -1,5 +1,5 @@
 class PeopleController < ApplicationController
-  respond_to :html, :xml, :pdf
+  respond_to :html, :xml, :pdf, :xlsx
   # GET /people
   # GET /people.json
   def index
